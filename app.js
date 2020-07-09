@@ -1,6 +1,6 @@
 'use strict';
 const PAGE_ACCESS_TOKEN = process.env.PAGE_ACCESS_TOKEN;
-const APP_URL = "https://mccnpt.herokuapp.com";
+const APP_URL = "https://mccmdl2.herokuapp.com";
 
 //new text
 
@@ -1265,7 +1265,7 @@ FUNCTION TO ADD WHITELIST DOMAIN
 const whitelistDomains = (res) => {
   var messageData = {
           "whitelisted_domains": [
-             "https://mccnpt.herokuapp.com" , 
+             "https://mccmdl2.herokuapp.com" , 
              "https://herokuapp.com" ,                                     
           ]               
   };  
